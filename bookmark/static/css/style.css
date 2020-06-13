@@ -1,0 +1,67 @@
+
+body {
+    background-color: lightskyblue;
+    color: #FCA205;
+    font-family: 'Lobster';
+    text-align: center;
+    font-size: larger;
+}
+
+header {
+    font-size: 90px;
+    font-family: 'Lobster';
+}
+
+.se {
+    color: black;
+    font-size: 40px;
+}
+
+button{
+    font-family: 'Lobster';
+    background:lightpink;
+    color:white;
+    border:none;
+    position:relative;
+    height:60px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+  }
+  button:hover{
+    font-family: 'Lobster';
+    background:white;
+    color:lightpink;
+  }
+  button:before,button:after{
+    font-family: 'Lobster';
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: lightpink;
+    transition:400ms ease all;
+  }
+  button:after{
+    font-family: 'Lobster';
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  button:hover:before,button:hover:after{
+    font-family: 'Lobster';
+    width:100%;
+    transition:800ms ease all;
+  }
+
+.jh{
+    color: #FCA205;
+    font-family: 'Lobster';
+    text-align: center;
+    font-size: 30px;
+  }
